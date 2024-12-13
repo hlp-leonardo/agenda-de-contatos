@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    padding-top: 100px;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+header {
+    display: flexbox;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+header h1,
+header h2 {
+    padding-top: 18px;
+    padding-left: 18px;
+}
+
+header h2 {
+    font-size: 14px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    padding-left: 18px;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    width: 200px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+form button {
+    padding: 8px;
+    width: 100px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+table thead th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table tbody td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    display: flex;
+    padding: 18px;
+    justify-content: center;
+    font-size: 12px;
+}
